@@ -18,6 +18,7 @@ public class StoreController {
 
     @GetMapping
       public List<Store> getAllStores() {
+        //Le puedo decir campeona??
           return storeService.getStores();
     }
 }
